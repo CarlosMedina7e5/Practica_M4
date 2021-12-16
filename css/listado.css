@@ -1,0 +1,109 @@
+/* TITLE */
+
+.list-title h1{
+    margin: 0;
+    font-size: 1.5em;   
+    text-align: center;
+    background-color: #8A8070;     
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* LIST */
+
+.list-recipe-item{
+    background-color: #7ABA9650;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.list-recipe-item .list-recipe-info .inner-content{
+    padding: 5px 10px;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title{
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 2px solid #8A8070;
+    margin-bottom: 10px;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title h2{
+    font-size: 1.17em;    
+    margin: 0;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title h2 a{
+    color: black;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title h2 a:hover{
+    color: #8A8070;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title .list-recipe-date{
+    margin: 0;
+}
+
+.list-recipe-item .list-recipe-info .list-recipe-info-title p{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.list-recipe-item .list-recipe-info p{
+    margin: 0;
+    text-align: justify;
+}
+
+.list-recipe-item .list-recipe-info ul{
+    padding: 0;
+    background-color: white;    
+    border-radius: 5px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.list-recipe-item .list-recipe-info li{
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* PAGING */
+
+.list-paging{
+    display: flex;
+    justify-content: center;    
+}
+
+.list-paging ul{
+    list-style-type: none;
+    padding: 0;    
+}
+
+.list-paging ul li{
+    background-color: #8A8070;
+    padding: 10px 10px;    
+}
+
+.list-paging ul li:hover{
+    background-color: #7ABA96;
+}
+
+.list-paging ul li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.list-paging ul li:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+.list-paging ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.17em;
+}

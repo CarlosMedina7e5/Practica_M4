@@ -1,0 +1,26 @@
+/* MAIN */
+
+.home-recipes .inner-content{
+    padding: 15px;
+}
+
+.home-recipes h1{
+    text-align: center;
+}
+
+.home-recipes h1 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-recipes h1 a:hover{
+    color: #8A8070;
+}
+
+.home-recipes .home-recipe-date{
+    border-top: 2px solid #7ABA96;
+    border-bottom: 2px solid #7ABA96;
+    margin: 5px 0;
+    text-align: center;    
+    padding: 2px 0;
+}

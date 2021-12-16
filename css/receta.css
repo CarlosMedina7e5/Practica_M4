@@ -1,0 +1,88 @@
+/* INTRODUCCIÓN */
+
+.recipe-intro{
+    background-color: #7ABA9650;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+}
+
+.recipe-intro h1{
+    text-align: center;    
+    margin: 10px 0 10px 0;
+    color: black;
+    background-color: white;
+    padding: 5px 0;    
+    font-size: 1.25em;
+    border-radius: 5px;
+}
+
+.recipe-intro h1.start{
+    margin-top: 0;
+}
+
+.recipe-ing div{
+    background-color: #8A8070;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.recipe-ing h2{    
+    font-size: 1.17em;
+    margin-right: 15px;
+}
+
+.recipe-ing ul{    
+    padding: 0;    
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-ing ul li{
+    margin: 0 15px;
+}
+
+/* PASOS */
+
+.recipe-steps article{
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    background-color: #7ABA9650;
+    border-radius: 10px;
+}
+
+.recipe-steps .recipe-step-info{
+    align-items: center;    
+    border-bottom: 2px solid #8A8070;
+    justify-content: space-between;    
+}
+
+.recipe-steps .recipe-step-info h3{    
+    margin: 5px 0;
+}
+
+.recipe-steps .recipe-step-info span{    
+    background-color: white;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+
+.recipe-step-desc {
+    margin-top: 10px;
+}
+
+.recipe-steps .recipe-step-desc img{
+    border-radius: 5px;    
+}
+
+.recipe-steps .recipe-step-desc .inner-content{
+    padding: 15px
+}
+
+.recipe-steps .recipe-step-desc .inner-content p{
+    text-align: justify;
+    margin: 0;
+}
