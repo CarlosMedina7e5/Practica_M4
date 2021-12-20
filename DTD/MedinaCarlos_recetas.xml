@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Recetas SYSTEM "MedinaCarlos_recetas.dtd">
+<Recetas autor="Carlos Medina">
+    <Receta idReceta="R1" fechaAlta="06/02/2021">
+        <Nombre>Croquetas</Nombre>
+        <Categoria>
+            Comida
+            <SubCategoria>Casera</SubCategoria>            
+        </Categoria>
+        <InfoGeneral>
+            <Foto>http://www.unafoto.com</Foto>
+            <Enlace>http://www.unenlace.com</Enlace>
+            <Comensales>2</Comensales>
+            <Tiempo unidadTiempo="minutos">20</Tiempo>
+            <Dificultad>Fácil</Dificultad>
+            <Descripcion>Croquetas ricas ricas...</Descripcion>
+        </InfoGeneral>
+        <Ingredientes>
+            <Ingrediente cantidad="20" unidadDeMedida="gramo">Jamón</Ingrediente>
+            <Ingrediente cantidad="50" unidadDeMedida="gramo">Pan rallado</Ingrediente>
+            <Ingrediente cantidad="70" unidadDeMedida="gramo">Sal</Ingrediente>
+            <Ingrediente cantidad="50" unidadDeMedida="gramo">Agua</Ingrediente>
+        </Ingredientes>
+        <Preparacion>
+            <Paso orden="P1_1">Abrir el jamón</Paso>
+            <Paso orden="P2_1">Picar el jamón</Paso>
+        </Preparacion>
+    </Receta>
+    <Receta idReceta="R2">
+        <Nombre>Macarrones</Nombre>
+        <Categoria>
+            Pasta
+            <SubCategoria>Italiano</SubCategoria>            
+        </Categoria>
+        <InfoGeneral>
+            <Foto>http://www.unafoto.com</Foto>
+            <Enlace>http://www.unenlace.com</Enlace>
+            <Comensales>4</Comensales>
+            <Tiempo unidadTiempo="minutos">30</Tiempo>
+            <Dificultad>Fácil</Dificultad>
+            <Descripcion>Macarrones ricas ricas...</Descripcion>
+        </InfoGeneral>
+        <Ingredientes>
+            <Ingrediente cantidad="20" unidadDeMedida="gramo">Macarrones</Ingrediente>
+            <Ingrediente cantidad="50" unidadDeMedida="gramo">Tomate</Ingrediente>
+            <Ingrediente cantidad="70" unidadDeMedida="gramo">Sal</Ingrediente>
+            <Ingrediente cantidad="50" unidadDeMedida="gramo">Agua</Ingrediente>
+        </Ingredientes>
+        <Preparacion>
+            <Paso orden="P1_2">Abrir los macarrones</Paso>
+            <Paso orden="P2_2">Sacar los macarrones</Paso>
+        </Preparacion>
+    </Receta>
+</Recetas>

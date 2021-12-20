@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inversion xmlns="http://www.pais.com/capital" xmlns:dinero="http://www.pais.com/dinero">
+    <pais nombre="Francia">
+        <capital>Paris</capital>
+        <dinero:capital>1200M€</capital>
+    </pais>
+</inversion>

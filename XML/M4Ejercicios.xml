@@ -1,0 +1,71 @@
+Ej 3:
+<Empresa>
+  <Empleado numEmpleado="1234567890">
+    <Apellido>Perez</Apellido>
+    <Nombre>Juan</Nombre>
+    <Email>juanperez@gmail.com</Email>
+    <Telefono>666 555 444</Telefono>
+    <Direccion>
+      <Calle>Carrer de Pau Claris, 121</Calle>
+      <Ciudad cp="08009">Barcelona</Ciudad>
+    </Direccion>
+  </Empleado>
+</Empresa>
+
+------------------------------------
+
+Sí,ya que no hay límite de atributos, aunque hay que tener en cuenta cada elemento.
+
+||||||||||||||||||||||||||||||||||||
+
+Ej 4:
+<comanda>
+    <dades>
+        <numero>13</numero>
+        <data>2011-09-28</data>
+        <client>
+            <nom>Manuel Rovira</nom>
+            <poblacio>Girona</poblacio>
+        </client>
+    </dades>
+    <articles>
+        <article>
+            <codi>687</codi>
+            <descripcio>Ratolí</descripcio>
+        </article>
+        <article>
+            <codi>129851</codi>
+            <descripcio>Pendrive 4GB</descripcio>
+        </article>
+    </articles>
+</comanda>
+
+||||||||||||||||||||||||||||||||||||
+
+Ej 5:
+<corredor posicio="1">Manel Roure</corredor>
+<alumne delegat="sí">Jaume Ravent</alumne>
+<coche tipoCombustible="gasolina">Seat Ibiza</coche>
+<politico cargos="Alcalde y diputado">Jordi Rufi</politico>
+
+------------------------------------
+
+<coche marca="seat" color="rojo" matricula="B3456L" conductores="Jorge y María" alquilado="sí"/>
+
+||||||||||||||||||||||||||||||||||||
+
+Ej 6:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<perro></perro>
+
+------------------------------------
+
+<?xml version="1.0" standalone="yes"?>
+
+------------------------------------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mascota>
+    <gato></gato>
+    <perro></perro>
+</mascota>

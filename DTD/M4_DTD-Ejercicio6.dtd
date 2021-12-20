@@ -1,0 +1,5 @@
+<!ELEMENT libreria (libro+, ticket+)>
+<!ELEMENT libro EMPTY>
+<!ELEMENT ticket EMPTY>
+<!ATTLIST libro ISBN ID #REQUIRED titulo CDATA #REQUIRED>
+<!ATTLIST ticket compra IDREFS #REQUIRED>

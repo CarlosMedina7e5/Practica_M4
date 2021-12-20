@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+}
+
+.top-header-h1{
+    font-size: 300%;
+    padding: 10px 20px;
+    background-color: #25BCEE;
+    margin: 0;   
+}
+
+nav {
+    background-color: #F1F1F1;
+}
+
+.ul-nav{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.li-nav{    
+    margin: 0 10px;
+    text-align: center;    
+}
+
+
+.li-nav a{
+    padding: 10px;
+    color: #25BCEE;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.li-nav:hover a{
+    background-color: #25BCEE;
+    color: white;
+    
+}
+
+.info-nav{
+    position: relative;
+}
+
+.info-nav p{
+    position: absolute;
+    bottom: -5px;    
+    right: 15px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: #DEDEDE50;
+}
+
+aside{
+    display: flex;
+    width: 30%;
+    background-color: #F8F8F8;
+}
+
+section{
+    padding: 5px 10px;
+}
+
+.article-container{    
+    padding: 5px;
+}
+
+aside .article-container{
+        background-color: rgb(248, 217, 81);
+}
+
+.section_1 .article-container, .section_2 .article-container{
+    border-radius: 15px 0 15px 0;
+    margin: 5px;
+    background-color: white;    
+}
+
+h2{
+    margin: 10px 0;
+}
+
+.section_1 article{
+    width: 100%;
+}
+
+.section_1 article header, .section_2 article header{
+    background-color: #64bd59;    
+    border-radius: 15px 0 15px 0;
+}
+
+article .header-container{
+    padding: 5px;
+}
+
+article .header-container h3, article .header-container h4{
+    margin: 0;
+}
+
+article .header-container h3{
+    font-size: 150%;
+}
+
+article .header-container h4{
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+article footer{
+    border-top: 1px solid #F5F5F5;
+    text-align: right;
+    font-style: italic;    
+    padding: 5px 10px;
+}
+
+aside article header h2{
+    font-size: 100%;
+    padding: 5px;
+    font-weight: normal;
+    margin: 0;
+}
+
+aside article p{
+    margin: 0;
+    padding: 0 10px;
+}
+
+.section_2{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.section_2 article{
+    width: 50%;
+}
+
+.section_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: #25BCEE;
+}

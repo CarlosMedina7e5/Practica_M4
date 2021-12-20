@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<establecimientos>
+  <establecimiento>
+    <tipo>Bar</tipo>
+    <nombre>Pasqual</nombre>
+    <estilo>Tapas</estilo>
+    <direccion>Av. Diagonal 232</direccion>
+    <propietario>Joan Alcover</propietario>
+  </establecimiento>
+  <establecimiento>
+    <tipo>Restaurante</tipo>
+    <nombre>Meravelles</nombre>
+    <estilo>Menú</estilo>
+    <direccion>Meridiana 111</direccion>
+    <propietario>María García</propietario>
+  </establecimiento>
+  <establecimiento>
+    <tipo>Restaurante</tipo>
+    <nombre>Racó de l'Avia</nombre>
+    <estilo>Menú</estilo>
+    <direccion>Av. Roma 221</direccion>
+    <propietario>Alba Puig</propietario>
+  </establecimiento>
+</establecimientos>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<seres_vivo> 
+  <persona>
+    <nombre>Pere García</nombre>
+  </persona>
+  <perro>
+    <nombre>Rufy</nombre>
+  </perro>
+</seres_vivo>

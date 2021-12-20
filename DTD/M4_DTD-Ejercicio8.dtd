@@ -1,0 +1,7 @@
+<!ELEMENT biblioteca (libro+, usuario+, prestamo)>
+<!ELEMENT libro EMPTY>
+<!ELEMENT usuario EMPTY>
+<!ELEMENT prestamo EMPTY>
+<!ATTLIST libro ISBN ID #REQUIRED titulo CDATA #REQUIRED tipo CDATA #IMPLIED>
+<!ATTLIST usuario DNI ID #REQUIRED nombre CDATA #REQUIRED>
+<!ATTLIST prestamo ISBN IDREFS #REQUIRED DNI IDREF #REQUIRED>

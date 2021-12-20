@@ -1,0 +1,23 @@
+<!ELEMENT Recetas (Receta+)>
+<!ATTLIST Recetas autor CDATA #FIXED "Carlos Medina">
+<!ELEMENT Receta (Nombre, Categoria, InfoGeneral?, Ingredientes, Preparacion)>
+<!ATTLIST Receta idReceta ID #REQUIRED>
+<!ATTLIST Receta fechaAlta CDATA #IMPLIED>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Categoria (#PCDATA | SubCategoria)*>
+<!ELEMENT SubCategoria (#PCDATA)>
+<!ELEMENT InfoGeneral (Foto*, Enlace?, Comensales, Tiempo, Dificultad, Descripcion?)>
+<!ELEMENT Foto (#PCDATA)>
+<!ELEMENT Enlace (#PCDATA)>
+<!ELEMENT Comensales (#PCDATA)>
+<!ELEMENT Tiempo (#PCDATA)>
+<!ELEMENT Dificultad (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ATTLIST Tiempo unidadTiempo (minutos | horas) "minutos">
+<!ELEMENT Ingredientes (Ingrediente, Ingrediente, Ingrediente, Ingrediente+)>
+<!ELEMENT Ingrediente (#PCDATA)>
+<!ATTLIST Ingrediente unidadDeMedida (gramo | taza | cucharada | cuchara | mililitro) "gramo">
+<!ATTLIST Ingrediente cantidad CDATA #IMPLIED>
+<!ELEMENT Preparacion (Paso, Paso+)>
+<!ELEMENT Paso (#PCDATA)>
+<!ATTLIST Paso orden ID #REQUIRED>

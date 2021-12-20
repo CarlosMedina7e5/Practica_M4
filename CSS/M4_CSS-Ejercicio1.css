@@ -1,0 +1,26 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{    
+    color: red;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+p, span{
+    font-style: italic;
+}
+
+span{
+    color: orangered;
+}
+
+ol, ul{
+    list-style: upper-roman;
+}

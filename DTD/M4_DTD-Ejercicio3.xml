@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "M4_DTD-Ejercicio3.dtd">
+<matricula>
+  <ciclo>DAWe1</ciclo>
+  <alumnos>
+    <alumno nacionalidad="Española">
+      <nombre>Paco</nombre>
+      <year>1</year>
+      <asignaturas>
+        <asignatura>M4</asignatura>
+        <asignatura>M1</asignatura>
+      </asignaturas>
+    </alumno>
+    <alumno nacionalidad="Española">
+      <nombre>Jorge</nombre>
+      <year>1</year>
+      <asignaturas>
+        <asignatura>M5</asignatura>
+        <asignatura>M3</asignatura>
+      </asignaturas>
+    </alumno>
+  </alumnos>  
+</matricula>

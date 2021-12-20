@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Empresa SYSTEM "M4_DTD-Ejercicio5.dtd">
+<Empresa>
+  <Empleado numEmpleado="1234567890">
+    <Apellido>Perez</Apellido>
+    <Apellido>Perez</Apellido>
+    <Nombre>Juan</Nombre>    
+    <Email>juanperez@gmail.com</Email>    
+    <Direccion calle="Carrer de Pau Claris, 121" ciudad="Barcelona" CP="08009" />      
+  </Empleado>
+  <Empleado numEmpleado="1234567890">
+    <Apellido>Perez</Apellido>
+    <Apellido>Perez</Apellido>
+    <Nombre>Juan</Nombre>
+    <Telefono>juanperez@gmail.com</Telefono> 
+    <Direccion calle="Carrer de Pau Claris, 121" ciudad="Barcelona" CP="08009" />      
+  </Empleado>
+</Empresa>

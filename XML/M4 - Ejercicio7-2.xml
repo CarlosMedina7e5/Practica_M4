@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <nombre>Pere</nombre>
+  <apellido1>Pérez</apellido1>
+  <apellido2>García</apellido2>
+  <edad>22</edad>
+</persona>

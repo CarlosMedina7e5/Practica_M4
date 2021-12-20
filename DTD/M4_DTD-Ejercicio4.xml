@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "M4_DTD-Ejercicio4.dtd">
+<persona>
+  <nombre>Maria</nombre>
+  <mujer/>
+  <fecha_de_nacimiento dia="2" mes="5" anyo="2000"/>        
+  <ciudad>Bilbao</ciudad>
+</persona>

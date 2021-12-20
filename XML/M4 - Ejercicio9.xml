@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta autor="José García" fecha_creacion="12/12/12">
+        <descripcion>
+            <titulo>Receta 1</titulo>
+            <estilo>Mediterranea</estilo>         
+            <utensilios>
+                <utensilio obligatorio="sí">
+                    <nombre>Cuchillo</nombre>
+                    <precio>12 €</precio>
+                </utensilio>
+                <utensilio obligatorio="no">
+                    <nombre>Espátula</nombre>
+                    <precio>7 €</precio>
+                </utensilio>
+            </utensilios>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Harina</nombre>
+                    <cantidad>250 g</cantidad>                                                            
+                </ingrediente>
+            </ingredientes>
+        </descripcion>        
+        <contenido>    
+            <introduccion>        
+            <parrafo>
+                <titulo>Introducción</titulo>
+                <texto>Introducción... Bli, bli, bli.</texto>
+            </parrafo>
+            </introduccion>
+            <procedimientos>
+                <procedimiento>
+                    <titulo>Paso 1</titulo>
+                    <utensilios_necesarios>Bla, bla.</utensilios_necesarios>
+                    <ingredientes_necesarios>Bla, bla.</ingredientes_necesarios>
+                    <explicacion>Bla, bla, bla...</explicacion>
+                </procedimiento>
+                <procedimiento>
+                    <titulo>Paso 2</titulo>
+                    <utensilios_necesarios>Ble, ble.</utensilios_necesarios>
+                    <ingredientes_necesarios>Ble, ble.</ingredientes_necesarios>
+                    <explicacion>Ble, ble, ble...</explicacion>
+                </procedimiento>
+            </procedimientos>
+            <conclusion>
+                <parrafo>
+                    <titulo>Conclusión</titulo>
+                    <texto>Blu, blu, blu...</texto>
+                </parrafo>
+            </conclusion>
+        </contenido>
+    </receta>
+    <receta autor="José García" fecha_creacion="12/12/12">
+        <descripcion>
+            <titulo>Receta 1</titulo>
+            <estilo>Mediterranea</estilo>         
+            <utensilios>
+                <utensilio obligatorio="sí">
+                    <nombre>Cuchillo</nombre>
+                    <precio>12 €</precio>
+                </utensilio>
+                <utensilio obligatorio="no">
+                    <nombre>Espátula</nombre>
+                    <precio>7 €</precio>
+                </utensilio>
+            </utensilios>
+            <ingredientes>
+                <ingrediente>
+                    <nombre>Harina</nombre>
+                    <cantidad>250 g</cantidad>                                                            
+                </ingrediente>
+            </ingredientes>
+        </descripcion>        
+        <contenido>    
+            <introduccion>        
+            <parrafo>
+                <titulo>Introducción</titulo>
+                <texto>Introducción... Bli, bli, bli.</texto>
+            </parrafo>
+            </introduccion>
+            <procedimientos>
+                <procedimiento>
+                    <titulo>Paso 1</titulo>
+                    <utensilios_necesarios>Bla, bla.</utensilios_necesarios>
+                    <ingredientes_necesarios>Bla, bla.</ingredientes_necesarios>
+                    <explicacion>Bla, bla, bla...</explicacion>
+                </procedimiento>
+                <procedimiento>
+                    <titulo>Paso 2</titulo>
+                    <utensilios_necesarios>Ble, ble.</utensilios_necesarios>
+                    <ingredientes_necesarios>Ble, ble.</ingredientes_necesarios>
+                    <explicacion>Ble, ble, ble...</explicacion>
+                </procedimiento>
+            <procedimientos>
+            <conclusion>
+                <parrafo>
+                    <titulo>Conclusión</titulo>
+                    <texto>Blu, blu, blu...</texto>
+                </parrafo>
+            </conclusion>
+        </contenido>                    
+    </receta>
+</recetas>

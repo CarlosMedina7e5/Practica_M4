@@ -1,0 +1,23 @@
+[
+    {
+        "tipo": "Bar",
+        "nombre": "Pasqual",
+        "estilo": "Tapas",
+        "direccion": "Av. Diagonal 232",
+        "propietario": "Joan Alcover"
+    },
+    {
+        "tipo": "Restaurante",
+        "nombre": "Meravelles",
+        "estilo": "Menú",
+        "direccion": "Meridiana 111",
+        "propietario": "María García"
+    }
+    ,{
+        "tipo": "Restaurante",
+        "nombre": "Racó de l'Avia",
+        "estilo": "Ménu",
+        "direccion": "Av. Roma 221",
+        "propietario": "Alba Puig"
+    }
+]

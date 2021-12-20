@@ -1,0 +1,90 @@
+*{
+    border: 1px solid black;        
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;            
+}
+
+h1{    
+    color: red;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: #BBB;    
+} 
+
+h2 ~ h2{
+    color: #AAA;
+}
+
+h2 ~ h2 ~ h2{
+    color: #999;
+}
+
+h2 ~ h2 ~ h2 ~ h2{
+    color: #888;    
+}
+
+/* h2:nth-child(2){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: #BBB;
+}
+
+h2:nth-child(4){
+    color: #AAA;
+}
+
+h2:nth-child(7){
+    color: #999;
+}
+
+h2:nth-child(9){
+    color: #888;
+} */
+
+p, span{
+    font-style: italic;
+}
+
+span{
+    color: orangered;
+}
+
+ol, ul{
+    list-style: upper-roman;    
+}
+
+.Franky{
+    background-color: green;
+    color: gray;
+}
+
+.Avi{
+    background-color: cyan;
+    color: blue;
+}
+
+.Tony{
+    background-color: maroon;
+    color: greenyellow;
+}
+
+.Boris{
+    background-color: yellowgreen;
+    color: maroon;
+}
+
+ul li a{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ol li a{
+    text-transform: capitalize;
+}

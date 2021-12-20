@@ -1,0 +1,24 @@
+[
+    {
+        "titulo": "Azul sobre blanco",
+        "estilo": "Cuadro",
+        "autor": "Pere Àguila",
+        "metodo": "Óleo",
+        "fecha_creación": "2014"
+    },
+    {
+        "titulo": "Gris oscuro",
+        "estilo": "Cuadro",
+        "autor": "Pere Àguila",
+        "metodo": "Acuarela",
+        "fecha_creación": "2010"
+    },
+    {
+        "titulo": "Camino largo",
+        "estilo": "Escultura",
+        "autor": "Marta Lambert",
+        "metodo": null,
+        "fecha_creación": "1981"
+    }
+]
+
