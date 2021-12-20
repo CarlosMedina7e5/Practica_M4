@@ -18,6 +18,11 @@
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 15px;
+    transition: all 0.25s ease;
+}
+
+.list-recipe-item:hover{    
+    background-color: #8A807050;    
 }
 
 .list-recipe-item .list-recipe-info .inner-content{
@@ -88,6 +93,10 @@
 .list-paging ul li{
     background-color: #8A8070;
     padding: 10px 10px;    
+}
+
+.list-paging ul li.list-pagin-actual{
+    background-color: #7ABA96;
 }
 
 .list-paging ul li:hover{

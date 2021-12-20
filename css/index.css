@@ -1,7 +1,19 @@
 /* MAIN */
 
+.home-recipes article{
+    transition: all 0.25s ease;    
+}
+
+.home-recipes article:hover{
+    transform: scale(1.02)
+}
+
 .home-recipes .inner-content{
     padding: 15px;
+}
+
+.home-recipes .inner-content img{
+    border-radius: 15px;
 }
 
 .home-recipes h1{
