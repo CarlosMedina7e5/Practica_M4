@@ -8,7 +8,24 @@ body{
 /* HEADER */
 
 .page-logo{
+    margin-top: 5px;
     text-align: center;
+}
+
+.page-logo img{
+    animation: logo-jump 0.5s ease infinite;
+}
+
+@keyframes logo-jump{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.01);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 /* NAV*/
@@ -33,6 +50,7 @@ body{
 
 .page-menu ul li{
     padding: 15px;
+    transition: all 0.25s ease;
 }
 
 .page-menu ul li a{
@@ -70,6 +88,10 @@ body{
     color: inherit;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.page-footer ul li a:hover{
+    color: #7ABA96;
 }
 
 /* MAIN */
@@ -122,6 +144,7 @@ main{
 .home-aside h1{
     margin: 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .home-aside p{    
@@ -134,8 +157,32 @@ main{
     margin: 5px 0;
 }
 
+.home-aside .home-book img{
+    animation: book-rotation 0.5s ease infinite;
+}
+
+@keyframes book-rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(0.5deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-0.5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 .home-aside .home-book{
-    background-color: lightgray;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #DEDEDE50;
 }
 
 .home-aside .home-book .home-book-inner{
@@ -146,7 +193,7 @@ main{
     background-color: #7ABA96;
     border: 0;
     font-weight: bold;
-    padding: 5px;    
+    padding: 10px;    
     transition: all 0.25s ease;
 }
 
