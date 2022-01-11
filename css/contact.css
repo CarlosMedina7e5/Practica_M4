@@ -41,3 +41,9 @@
 .contact-form input:hover, .contact-form textarea:hover, .contact-form input:focus, .contact-form textarea:focus{    
     border: 2px solid #8A8070;
 }
+
+.contact-form .contact-form-radio-container label{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+}

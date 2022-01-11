@@ -51,7 +51,16 @@ APELLIDOS: Medina Fernández
 				<label class="w100" for="user-mail">Correo electrónico</label>
 				<input class="w100" type="mail" name="user-mail" id="user-mail" placeholder="Introduce tu correo electrónico..."/>
 				<label class="w100" for="user-name">Nombre</label>
-				<input class="w100" type="text" name="user-name" id="user-name" placeholder="Introduce tu nombre..."/>
+				<input class="w100" type="text" name="user-name" id="user-name" placeholder="Introduce tu nombre..."/>				
+				<label class="w100">Género</label>
+				<div class="contact-form-radio-container">
+					<input id="women" name="user-sex" type="radio" value="women"/>
+					<label for="women">Mujer</label>
+					<input id="man" name="user-sex" type="radio" value="man"/>
+					<label for="women">Hombre</label>				
+				</div>
+				<label class="w100" for="user-date">Fecha de nacimiento</label>
+				<input type="date" id="user-date" name="user-date" class="w100">
 				<label class="w100" for="user-content">Mensaje</label>
 				<textarea class="w100" name="user-content" id="user-content" placeholder="Escribe tu mensaje..."></textarea>
 				<input class="w100" type="submit" value="Enviar"/>
