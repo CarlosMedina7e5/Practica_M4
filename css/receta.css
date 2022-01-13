@@ -1,20 +1,22 @@
 /* RECIPE INFO */
 
+h1.start{
+    margin: 0;
+    font-size: 1.5em;   
+    text-align: center;
+    background-color: #8A8070;     
+    padding: 5px 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
 .recipe-intro{
     background-color: #7ABA9650;
     padding: 15px;
     border-radius: 15px;
     color: black;
-}
-
-.recipe-intro h1{
-    text-align: center;    
-    margin: 10px 0 10px 0;
-    color: black;
-    background-color: white;
-    padding: 5px 0;    
-    font-size: 1.25em;
-    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .recipe-intro h1.start{
